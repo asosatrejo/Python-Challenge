@@ -1,9 +1,8 @@
 #PyBank Challenge
 import os
 import csv
-import pandas
 
-budget_csv = '../Resources/budget_data.csv'
+budget_csv = 'Resources/budget_data.csv'
 
 #Create lists to use
 dateList = []
@@ -71,3 +70,4 @@ budget_txt.write(f'Greatest Increase in Profits: {greatIncMonth} (${greatInc})\n
 budget_txt.write(f'Greatest Decrease in Profits: {greatDecMonth} (${greatDec})\n')
 
 budget_txt.close()
+
